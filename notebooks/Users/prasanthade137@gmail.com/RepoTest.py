@@ -1,5 +1,5 @@
 # Databricks notebook source
-df5 = spark.read.format("csv").option("header",True).load("dbfs:/databricks-datasets/asa/airlines/2007.csv")
+df6 = spark.read.format("csv").option("header",True).load("dbfs:/databricks-datasets/asa/airlines/2007.csv")
 
 # COMMAND ----------
 
@@ -7,7 +7,7 @@ df5 = spark.read.format("csv").option("header",True).load("dbfs:/databricks-data
 
 # COMMAND ----------
 
-df5.show()
+df6.show()
 
 # COMMAND ----------
 
