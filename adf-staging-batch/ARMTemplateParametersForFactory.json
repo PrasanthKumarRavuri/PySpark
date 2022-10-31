@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-staging-batch"
+		},
+		"ls_OnpremFile_password": {
+			"value": ""
+		},
+		"ls_adlsgen2_accountKey": {
+			"value": ""
+		},
+		"ls_azureBlob_connectionString": {
+			"value": ""
+		},
+		"ls_oracle_connectionString": {
+			"value": ""
+		},
+		"ls_OnpremFile_properties_typeProperties_host": {
+			"value": "D:\\ADE\\PysparkTelugu-master"
+		},
+		"ls_OnpremFile_properties_typeProperties_userId": {
+			"value": "HP"
+		},
+		"ls_adlsgen2_properties_typeProperties_url": {
+			"value": "https://adlsgen2storrage.dfs.core.windows.net/"
+		},
+		"ls_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://akvbatch27.vault.azure.net/"
+		}
+	}
+}
