@@ -3,11 +3,12 @@
 
 # COMMAND ----------
 
-df1 = spark.read.csv("dbfs:/FileStore/tables/emp.csv",header=True)
+df2 = spark.read.csv("dbfs:/FileStore/tables/emp.csv",header=True)
 
 # COMMAND ----------
 
-df1.show()
+df2.show()
 
 # COMMAND ----------
+
 
