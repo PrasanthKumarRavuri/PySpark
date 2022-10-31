@@ -1,0 +1,20 @@
+{
+	"name": "DS_oracle_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_oracle",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "OracleToBlobMigration"
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SCOTT",
+			"table": "EMP"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

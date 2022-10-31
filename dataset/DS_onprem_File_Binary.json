@@ -1,0 +1,21 @@
+{
+	"name": "DS_onprem_File_Binary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_OnpremFile",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "OnPremFileToADLSgen2Binary"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "channels06-12-2020-10-20-50.csv"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

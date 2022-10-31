@@ -1,0 +1,17 @@
+{
+	"name": "ls_OnpremFile",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "D:\\ADE\\PysparkTelugu-master",
+			"userId": "HP",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzMTVhZGNjOC0zZDhkLTRlMTMtOTc0NC0wZmVjZDdmM2U0YmIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfHostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

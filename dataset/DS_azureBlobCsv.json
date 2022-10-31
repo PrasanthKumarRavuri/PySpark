@@ -1,0 +1,27 @@
+{
+	"name": "DS_azureBlobCsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azureBlob",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "OracleToBlobMigration"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "OracleEmp.csv",
+				"container": "adlsblobcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

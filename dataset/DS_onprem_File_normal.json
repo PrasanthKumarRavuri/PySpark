@@ -1,0 +1,43 @@
+{
+	"name": "DS_onprem_File_normal",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_OnpremFile",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "OnPremFileToADLSgen2Normal"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "dept_emp.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "emp_no",
+				"type": "String"
+			},
+			{
+				"name": "dept_no",
+				"type": "String"
+			},
+			{
+				"name": "from_date",
+				"type": "String"
+			},
+			{
+				"name": "to_date",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
