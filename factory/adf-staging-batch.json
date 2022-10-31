@@ -1,9 +1,0 @@
-{
-	"name": "adf-staging-batch",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "74577873-6486-43c5-aa31-161734c5bc74",
-		"tenantId": "0c042e0b-19af-4829-85c9-fb14703d23e8"
-	}
-}
