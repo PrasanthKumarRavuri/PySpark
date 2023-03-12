@@ -3,7 +3,7 @@
 
 # COMMAND ----------
 
-df = spark.read.format("csv").load("/FileStore/Tables/dept.csv",header=True)
+df = spark.read.format("csv").load("/FileStore/Tables/dept.csv")
 
 # COMMAND ----------
 
